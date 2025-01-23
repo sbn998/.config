@@ -60,7 +60,7 @@ return {
 		keymap.set("n", "<leader>re", "<cmd>Telescope registers<cr>", { desc = "Show registers" })
 		keymap.set(
 			"n",
-			"<leader>bf",
+			"<leader>fb",
 			"<cmd>Telescope current_buffer_fuzzy_find<cr>",
 			{ desc = "Fuzzy find string in current buffer" }
 		)
