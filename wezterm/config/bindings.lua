@@ -182,7 +182,15 @@ local keys = {
       mods = mod.SUPER_REV,
       action = act.PaneSelect({ alphabet = '1234567890', mode = 'SwapWithActiveKeepFocus' }),
    },
-
+  
+  -- open lazygit in new tab
+{
+  key = "g",
+  mods = mod.SUPER,
+  action = act.SpawnCommandInNewTab({
+          args = { 'lazygit' },
+      }),
+},
    -- panes: scroll pane
    { key = 'u',        mods = mod.SUPER, action = act.ScrollByLine(-5) },
    { key = 'd',        mods = mod.SUPER, action = act.ScrollByLine(5) },
