@@ -28,7 +28,7 @@ keymap.set("n", "go", "<Cmd>call append(line('.'), repeat([''], v:count1))<CR>",
 -- custom functions
 keymap.set(
 	"n",
-	"gs",
+	"sc",
 	'<cmd>lua require("functions.switch-case").switch_case()<CR>',
 	{ desc = "Switch camel/snake case" }
 )
