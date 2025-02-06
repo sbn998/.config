@@ -23,7 +23,8 @@ return {
 						foreground = false,
 					},
 					settings = {
-						showTodos = false,
+						showTodos = true,
+						lineLength = 120,
 						completeFunctionCalls = true,
 						renameFilesWithClasses = "prompt",
 						enableSnippets = true,
