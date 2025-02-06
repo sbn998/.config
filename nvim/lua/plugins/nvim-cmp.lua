@@ -24,7 +24,7 @@ return {
 		-- loads vscode style snippets from installed plugins (e.g. friendly-snippets)
 		require("luasnip.loaders.from_vscode").lazy_load()
 
-		-- loads flutter snippets form friendly-snippets
+		-- loads flutter snippets from friendly-snippets
 		luasnip.filetype_extend("dart", { "flutter" })
 
 		cmp.setup({
