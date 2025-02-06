@@ -7,4 +7,5 @@ return {
 		explorer = require("config.snacks.explorer"),
 		picker = require("config.snacks.picker"),
 	},
+	keys = require("config.snacks.keymaps"),
 }
