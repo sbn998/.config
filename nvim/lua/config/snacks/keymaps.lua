@@ -141,6 +141,13 @@ local M = {
 		end,
 		desc = "Buffer Diagnostics",
 	},
+	{
+		"<leader>hb",
+		function()
+			Snacks.git.blame_line()
+		end,
+		desc = "Git Blame Line",
+	},
 }
 
 return M
