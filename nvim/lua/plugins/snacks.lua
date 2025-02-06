@@ -5,5 +5,6 @@ return {
 	opts = {
 		dashboard = require("config.snacks.dashboard"),
 		explorer = require("config.snacks.explorer"),
+		picker = require("config.snacks.picker"),
 	},
 }
