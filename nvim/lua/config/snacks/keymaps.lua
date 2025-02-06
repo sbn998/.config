@@ -1,6 +1,6 @@
 local M = {
 	{
-		"<leader>ffs",
+		"<leader>fS",
 		function()
 			Snacks.picker.smart()
 		end,
