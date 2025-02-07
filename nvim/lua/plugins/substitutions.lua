@@ -17,7 +17,7 @@ return {
 		keymap.set("x", "<leader>sr", require("substitute.range").visual, { noremap = true })
 		keymap.set("n", "<leader>ss", require("substitute.range").word, { noremap = true })
 		keymap.set("n", "sr", require("substitute.exchange").operator, { noremap = true })
-		keymap.set("n", "srr", require("substitute.exchange").line, { noremap = true })
+		keymap.set("n", "sR", require("substitute.exchange").line, { noremap = true })
 		keymap.set("x", "X", require("substitute.exchange").visual, { noremap = true })
 		keymap.set("n", "src", require("substitute.exchange").cancel, { noremap = true })
 	end,
