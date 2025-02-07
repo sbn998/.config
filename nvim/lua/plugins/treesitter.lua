@@ -64,13 +64,13 @@ return {
 			ensure_installed = {
 				"json",
 				"markdown",
-				"markdown_inline",
 				"lua",
 				"vim",
 				"gitignore",
 				"query",
 				"vimdoc",
 				"dart",
+				"regex",
 			},
 			incremental_selection = {
 				enable = true,
